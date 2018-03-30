@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/my_recommend_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="200dp"
+    android:layout_height="match_parent"
+    android:padding="4dp">
+    <ImageView
+        android:id="@+id/my_recommend_iamge"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+    <TextView
+        android:id="@+id/my_recommend_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这年头没几块腹肌真不行"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginTop="8dp"/>
+    <TextView
+        android:id="@+id/my_recommend_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="为什么练了那么久还是没效果"
+        android:gravity="center"
+        android:layout_marginTop="4dp"/>
+</LinearLayout>

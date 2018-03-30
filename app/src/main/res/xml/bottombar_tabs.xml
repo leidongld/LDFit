@@ -1,0 +1,22 @@
+<tabs>
+    <tab
+        id="@+id/tab_training"
+        icon="@drawable/tab_training"
+        title="Training"
+        barColorWhenSelected="#FF5722"/>
+    <tab
+        id="@+id/tab_discover"
+        icon="@drawable/tab_discover"
+        title="Discover"
+        barColorWhenSelected="#673AB7"/>
+    <tab
+        id="@+id/tab_news"
+        icon="@drawable/tab_news"
+        title="News"
+        barColorWhenSelected="#03A9F4"/>
+    <tab
+        id="@+id/tab_my"
+        icon="@drawable/tab_my"
+        title="My"
+        barColorWhenSelected="#4CAF50"/>
+</tabs>

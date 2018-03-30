@@ -19,6 +19,7 @@ public class MyApplication extends Application {
         context = getApplicationContext();
 
         assetManager = getAssets();
+
     }
 
     public static Context getContext(){

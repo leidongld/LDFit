@@ -8,6 +8,7 @@
 
 
     <LinearLayout
+        android:id="@+id/ll_username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -29,6 +30,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/ll_password1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -51,6 +53,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/ll_password2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
